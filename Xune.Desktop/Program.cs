@@ -25,7 +25,7 @@ namespace Xune
                 .With(new AvaloniaNativePlatformOptions {UseDeferredRendering = true, UseGpu = true})
                 .With(new MacOSPlatformOptions {ShowInDock = true})
                 .UseReactiveUI()
-                .LogToDebug();
+                .LogToTrace();
         }
     }
 }
